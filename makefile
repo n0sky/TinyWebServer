@@ -13,3 +13,5 @@ server: main.cpp  ./timer/lst_timer.cpp ./http/http_conn.cpp ./log/log.cpp ./CGI
 
 clean:
 	rm  -r server
+
+all: server
